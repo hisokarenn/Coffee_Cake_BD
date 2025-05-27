@@ -16,5 +16,5 @@ O sistema “Coffee Cake” tem como objetivo principal oferecer uma solução d
 - [Aila Karoline Santana Moreira]()
 - [Ennoile Raquel Martins Ferreira]()
 - [Gustavo de Oliveira Pena]()
-- [Karen Vitória ROdrigues Pereira]()
+- [Karen Vitória Rodrigues Pereira]()
 - [Sabrina Martins Bezerra]()
