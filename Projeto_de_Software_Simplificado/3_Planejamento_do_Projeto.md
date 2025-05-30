@@ -1,9 +1,9 @@
-# 1. Planejamento do Projeto
+# 3. Planejamento do Projeto
 O planejamento é essencial para organizar as etapas e responsabilidades do projeto. Nele definimos o escopo, os requisitos, as regras e os modelos que vão guiar o desenvolvimento. Cada tarefa tem um responsável e um prazo para garantir que tudo seja feito de forma organizada e dentro do cronograma.
 
 <br>
 
-# 2. Cronograma do Projeto
+## 3.1 Cronograma do Projeto
 Neste quadro a seguir, está dividida as atividades para os membros da equipe e suas respectivas datas de início da atividade e quando foram concluídas(Data final) da primeira parte do trabalho:
 
 
