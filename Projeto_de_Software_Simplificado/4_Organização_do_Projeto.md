@@ -1,16 +1,16 @@
-# 1. Organização do projeto
+# 4. Organização do projeto
 O projeto Coffee Cake possui uma estrutura organizacional definida para garantir a eficiência no desenvolvimento, acompanhamento e entrega do sistema. A organização da equipe está alinhada às melhores práticas de gestão de projetos de desenvolvimento de software.
 
 <br>
 
-# 2. Organograma do Projeto
+## 4.1 Organograma do Projeto
 A seguir, a imagem de como nosso projeto está sendo organizado:
 
 ![image](https://github.com/user-attachments/assets/62704483-20d8-4d16-8957-57409d22f67d)
 
 <br>
 
-# 3. Papéis e Responsabilidades da Equipe
+## 4.2 Papéis e Responsabilidades da Equipe
 A seguir, sobre o desenvolvimento do projeto, já foram definidas as responsabilidades de cada um na criação do Banco de Dados:
 
 
@@ -24,7 +24,7 @@ A seguir, sobre o desenvolvimento do projeto, já foram definidas as responsabil
 | **DBA (Administrador de Banco)** | Configuração, manutenção e otimização do banco de dados, além de backup e segurança dos dados.                                               | Gustavo de Oliveira Pena                                                                            |
 <br> 
 
-# 4. Hierarquia do Projeto Coffee Cake
+## 4.3 Hierarquia do Projeto Coffee Cake
 Gerente de Projeto: Responsável por toda a gestão do projeto. Coordena, planeja e toma as principais decisões. É quem aprova mudanças, resolve conflitos, define prioridades e acompanha o progresso.
 Equipe Técnica: A equipe está organizada em conjunto, sem uma subdivisão rígida entre eles. Cada membro tem uma função bem definida:
 - Desenvolvedor Front-end cuida da interface, aparência e experiência do usuário.
