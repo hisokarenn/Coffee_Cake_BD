@@ -8,8 +8,9 @@ Nome sistema: Coffe Cake (Baseado em uma cafeteria simples).
 ## Objetivo
 <br>
 
-O sistema “Coffee Cake” tem como objetivo principal oferecer uma solução digital para o gerenciamento de informações de uma cafeteria, com foco na organização eficiente de dados relacionados a comidas, bebidas e outros elementos operacionais como cadastro/login de funcionários e gerentes. Por meio de um banco de dados, o sistema permitirá o armazenamento, a consulta e a atualização dessas informações de forma estruturada e segura.
-
+<p align="justify"> O sistema “Coffee Cake” tem como objetivo principal oferecer uma solução digital para o gerenciamento de informações de uma cafeteria, com foco na organização eficiente de dados relacionados a comidas, bebidas e outros elementos operacionais como cadastro/login de funcionários e gerentes. Por meio de um banco de dados, o sistema permitirá o armazenamento, a consulta e a atualização dessas informações de forma estruturada e segura.
+  
+<br>
 <br>
 
 ## Contribuidores
