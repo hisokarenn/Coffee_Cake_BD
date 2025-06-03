@@ -13,8 +13,8 @@ O sistema “Coffee Cake” tem como objetivo principal oferecer uma solução d
 <br>
 
 ## Contribuidores
-- [Aila Karoline Santana Moreira]()
-- [Ennoile Raquel Martins Ferreira]()
-- [Gustavo de Oliveira Pena]()
-- [Karen Vitória Rodrigues Pereira]()
-- [Sabrina Martins Bezerra]()
+- [Aila Karoline Santana Moreira](https://github.com/ailinha01)
+- [Ennoile Raquel Martins Ferreira](https://github.com/ennoile)
+- [Gustavo de Oliveira Pena](https://github.com/MnGusta)
+- [Karen Vitória Rodrigues Pereira](https://github.com/hisokarenn)
+- [Sabrina Martins Bezerra](https://github.com/Sabryna009)
