@@ -1,7 +1,7 @@
 # Coffee Cake
 <br>
 
-Nome sistema: Coffe Cake (Baseado em uma cafeteria simples).
+Nome do sistema: Coffe Cake (Baseado em uma cafeteria simples).
 
 <br> 
 
