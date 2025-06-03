@@ -1,7 +1,7 @@
 # 6. Requisitos
 Requisitos e especificações do Sistema Coffee Cake.
 
-## 6.1 Requisistos Funcionais
+## 6.1 Requisitos Funcionais
 
 <br>
 
