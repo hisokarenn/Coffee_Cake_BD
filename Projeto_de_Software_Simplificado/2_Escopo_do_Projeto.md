@@ -13,7 +13,7 @@ Atualmente, muitas cafeterias utilizam métodos manuais ou sistemas fragmentados
 	
 ## 2.3 Itens Incluídos no Projeto
 O escopo do sistema Coffee Cake possui:
--Modelagem e implementação de um banco de dados utilizando modelagem conceitual, lógica e física.
+- Modelagem e implementação de um banco de dados utilizando modelagem conceitual, lógica e física.
 - Funcionalidades de cadastro, login, listagem, edição e exclusão para produtos, categorias, clientes e funcionários, ou seja, criar, ler, atualizar e deletar (CRUD).
 - Documentação do modelo de dados e funcionalidades do sistema.
 - Interface web para inserção, consulta e atualização de dados. (simples).
