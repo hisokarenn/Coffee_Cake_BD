@@ -11,7 +11,8 @@ A equipe do projeto Coffee Cake ainda está em fase de desenvolvimento. Para iss
 
 | Categoria                     | Descrição                                   |
 |-------------------------------|----------------------------------------------|
-| **Equipamentos**              | Notebook                                    |
-| **Ferramentas de Software**   | Draw.io, GitHub, Google Docs, MySQL         |
-| **Ambientes de Desenvolvimento** | Visual Studio Code                       |
-| **Servidor**                  | XAMPP                                       |
+| **Modelagem de Software** | Draw.io, BRMW (BR Modelo Web)|
+| **Ferramentas**   | GitHub, Google Docs, Canva|
+| **Ambientes de Desenvolvimento** | Visual Studio Code, MySQL WorkBench|
+|Linguagem de Programação|SQL (Structured Query Language)|
+| **Servidor**                  | Xampp                                    |
