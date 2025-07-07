@@ -11,7 +11,7 @@
 
 <br>
 
-<p align="center"> <img src="https://github.com/hisokarenn/Coffee_Cake_BD/blob/92bf8b26b3d0207a96afdfebb658c2ceb3936699/Projeto_de_Software_Simplificado/Imagens/ModeloRelacional.png" alt="" width="900" /></p>
+<p align="center"> <img src="https://github.com/hisokarenn/Coffee_Cake_BD/blob/00c58787a7ebf62ad43690fb7f54ade46128cd7e/Projeto_de_Software_Simplificado/Imagens/ModeloRelacional.png" alt="" width="900" /></p>
 
 <p align="center"> Modelo gerado na ferramenta Draw.io
 
