@@ -21,7 +21,6 @@
 
 - Organizar dados de produtos e ingredientes disponíveis de forma simples.
 - Armazenar informações dos funcionários e gerentes para fins de cadastro/login.
-- Permitir o gerenciamento de categorias de produtos (ex: doces, cafés, salgados, sucos).
 - Permitir o acesso a dois tipos de usuários: os funcionários (irão cadastrar clientes, categorias, alimentos, fazer consultas, inclusão e exclusão de dados) e o administrador (poderá cadastrar funcionários além de ter acesso a todas as funcionalidades do sistema).
 
 <br>
@@ -32,9 +31,9 @@
 
 O escopo do sistema Coffee Cake possui:
 - Modelagem e implementação de um banco de dados utilizando modelagem conceitual, lógica e física.
-- Funcionalidades de cadastro, login, listagem, edição e exclusão para produtos, categorias, clientes e funcionários, ou seja, criar, ler, atualizar e deletar (CRUD).
+- Funcionalidades de cadastro, login, listagem, edição e exclusão para produtos, clientes e funcionários, ou seja, criar, ler, atualizar e deletar (CRUD).
 - Documentação do modelo de dados e funcionalidades do sistema.
-- Interface web para inserção, consulta e atualização de dados. (simples).
+- Interface para inserção, consulta e atualização de dados. (simples).
 
 <br>
 
@@ -54,7 +53,6 @@ O projeto não inclui:
 
 <br>
 
-<p align="justify">O sistema será desenvolvido  como um site simples via navegador e funcionará de forma independente, sem necessidade de integração com outros sistemas externos. Os dados serão armazenados exclusivamente no banco de dados local (XAMPP). A interação com o sistema se dará por meio de páginas de listagem, voltadas apenas ao uso interno da cafeteria.
-
+<p align="justify">O sistema será desenvolvido  como um aplicativo simples e funcionará de forma independente, sem necessidade de integração com outros sistemas externos. Os dados serão armazenados exclusivamente no banco de dados local (SQLite). A interação com o sistema se dará por meio de páginas de listagem, voltadas apenas ao uso interno da cafeteria.
 <br>
 <br>
