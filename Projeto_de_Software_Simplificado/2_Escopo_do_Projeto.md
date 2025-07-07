@@ -53,6 +53,6 @@ O projeto não inclui:
 
 <br>
 
-<p align="justify">O sistema será desenvolvido  como um aplicativo simples e funcionará de forma independente, sem necessidade de integração com outros sistemas externos. Os dados serão armazenados exclusivamente no banco de dados local (SQLite). A interação com o sistema se dará por meio de páginas de listagem, voltadas apenas ao uso interno da cafeteria.
+<p align="justify">O sistema será desenvolvido  como um aplicativo simples e funcionará de forma independente, sem necessidade de integração com outros sistemas externos. Os dados serão armazenados exclusivamente no banco de dados local (SQLite).
 <br>
 <br>
