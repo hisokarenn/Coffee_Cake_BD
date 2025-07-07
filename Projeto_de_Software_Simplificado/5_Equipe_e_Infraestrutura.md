@@ -20,9 +20,9 @@ No Back-end, quem assume é Ennoile Raquel Martins Ferreira. A responsabilidade 
 | Categoria                     | Descrição                                   |
 |-------------------------------|----------------------------------------------|
 | **Modelagem de Software** | Draw.io, BRMW (BR Modelo Web)|
-| **Ferramentas**   | GitHub, Google Docs, Canva|
-| **Ambientes de Desenvolvimento** | Visual Studio Code, MySQL WorkBench|
-|Linguagem de Programação|SQL (Structured Query Language)|
-| **Servidor**                  | Xampp                                    |
+| **Ferramentas**   | GitHub, Google Docs, Canva, SceneBuilder, DB Browser for SQLite, DbSchema|
+| **Ambientes de Desenvolvimento** | Visual Studio Code|
+|Linguagem de Programação|Java|
+| **Servidor**                  | SQLite                                 |
 
 <br>
