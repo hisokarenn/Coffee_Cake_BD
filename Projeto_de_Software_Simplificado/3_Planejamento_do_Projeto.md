@@ -31,4 +31,4 @@
 | Modelo Conceitual         | Aila Karoline Santana Moreira          | 26/05/2025  | 28/05/2025  |
 | Modelo Lógico             | Ennoile Raquel Martins, Karen Vitória Rodrigues Pereira| 28/05/2025  | 30/05/2025  |
 | Modelo Físico             | Gustavo de Oliveira Pena, Ennoile Raquel Martins| 01/06/2025  | 03/06/2025  |
-
+| Atualização da Documentação do Projeto| Todos da equipe| 02/07/2025| 07/07/2025|
