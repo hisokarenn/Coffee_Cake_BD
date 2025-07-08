@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Fonte";
+  src: url("../font/BreeSerif-Regular.ttf");
+}
+
+* {
+  -fx-font-family: "Fonte";
+}
+
+.fundo-principal {
+  -fx-background-color: #e8cd9b;
+}
+
+.botao-principal {
+  -fx-background-color: #4d3217;
+  -fx-text-fill: white;
+  -fx-background-radius: 10px;
+  -fx-font-weight: bold;
+  -fx-cursor: hand;
+  -fx-padding: 8 16;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 3, 0, 0, 1);
+  -fx-border-color: transparent;
+  -fx-transition: all 0.2s;
+}
+
+.botao-principal:hover {
+  -fx-background-color: #6a4422;
+}
+
+.botao-principal:pressed {
+  -fx-background-color: #402a13;
+  -fx-translate-y: 1;
+}
+
+.caixa-texto {
+  -fx-background-color: #e0c69a;
+  -fx-text-fill: #3e2b17;
+  -fx-background-radius: 10px;
+  -fx-border-radius: 10px;
+  -fx-border-color: #d4b98d;
+  -fx-border-width: 1.2px;
+  -fx-font-size: 13px;
+  -fx-prompt-text-fill: #7a6651;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 2, 0, 0, 1);
+  -fx-focus-color: transparent;
+  -fx-faint-focus-color: transparent;
+}
+
+.caixa-texto:focused {
+  -fx-border-color: #a67c52;
+  -fx-border-width: 2px;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 3, 0, 0, 2);
+}

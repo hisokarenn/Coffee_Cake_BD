@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#e1b895" height="106.0" layoutY="-30.0" stroke="#f2f2f2" strokeType="INSIDE" width="401.0" />
+      <Label layoutX="53.0" layoutY="5.0" prefHeight="25.0" prefWidth="162.0" text="Recuperar Senha" textFill="#615340">
+         <font>
+            <Font name="Arial Black" size="16.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="35.0" arcWidth="35.0" fill="#f2f2f2" height="530.0" layoutY="42.0" stroke="#f2f2f2" strokeType="INSIDE" width="401.0" />
+      <PasswordField blendMode="MULTIPLY" layoutX="43.0" layoutY="148.0" prefHeight="34.0" prefWidth="312.0" style="-fx-background-radius: 30;" />
+      <PasswordField blendMode="MULTIPLY" layoutX="43.0" layoutY="218.0" prefHeight="34.0" prefWidth="312.0" style="-fx-background-radius: 30;" />
+      <PasswordField blendMode="MULTIPLY" layoutX="43.0" layoutY="278.0" prefHeight="34.0" prefWidth="312.0" style="-fx-background-radius: 30;" />
+      <ImageView fitHeight="23.0" fitWidth="16.0" layoutX="59.0" layoutY="227.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../sen.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="23.0" fitWidth="16.0" layoutX="59.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../email.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="82.0" layoutY="153.0" prefHeight="25.0" prefWidth="78.0" text="Email" textFill="#b2aeaa">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="82.0" layoutY="223.0" prefHeight="25.0" prefWidth="109.0" text="Nova senha" textFill="#b2aeaa">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="67.0" layoutY="283.0" prefHeight="25.0" prefWidth="147.0" text="Confirmar Senha" textFill="#b2aeaa">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="23.0" fitWidth="16.0" layoutX="323.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagens/oli.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="23.0" fitWidth="16.0" layoutX="323.0" layoutY="288.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagens/oli.png" />
+         </image>
+      </ImageView>
+      <Button blendMode="MULTIPLY" layoutX="138.0" layoutY="485.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="120.0" style="-fx-background-radius: 30; -fx-background-color: #e1b895;" text="Cadastrar" textFill="#615340">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#d7d7d7" height="34.0" layoutX="101.0" layoutY="385.0" stroke="#d7d7d7" strokeType="INSIDE" width="194.0" />
+      <ImageView fitHeight="25.0" fitWidth="38.0" layoutX="258.0" layoutY="390.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../ids.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="150.0" layoutY="394.0" prefHeight="17.0" prefWidth="98.0" text="Não sou um robô" wrapText="true" />
+      <CheckBox layoutX="118.0" layoutY="394.0" mnemonicParsing="false" prefWidth="16.0" style="-fx-background-color: #ffffff;" />
+      <ImageView fitHeight="25.0" fitWidth="27.0" layoutX="18.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../xic.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

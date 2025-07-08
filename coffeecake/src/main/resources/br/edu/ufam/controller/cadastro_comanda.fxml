@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="600.0" styleClass="fundo-principal" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ufam.controller.CadastroComandaController">
+   <children>
+      <fx:include source="menu_bar.fxml" />
+      <VBox prefHeight="200.0" prefWidth="100.0" spacing="5.0" VBox.vgrow="ALWAYS">
+         <children>
+            <HBox alignment="CENTER" prefHeight="0.0" prefWidth="579.0" styleClass="fundo-principal">
+               <children>
+                  <Label fx:id="lblTitulo" text="Titulo">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Pane prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+                  <Label fx:id="lblUsuarioLogado" text="Operador: Funcionario" textAlignment="RIGHT">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="10.0" right="10.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="0.0" prefWidth="581.0" spacing="10.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="250.0" prefWidth="270.0" spacing="5.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <TableView fx:id="tableView" prefHeight="283.0" prefWidth="285.0" VBox.vgrow="ALWAYS">
+                          <columns>
+                            <TableColumn fx:id="colId" prefWidth="46.39999562501907" text="ID" />
+                            <TableColumn fx:id="colNomeProduto" prefWidth="91.1999626159668" text="Nome" />
+                              <TableColumn fx:id="colQuantidade" prefWidth="97.60004425048828" text="Quantidade" />
+                              <TableColumn fx:id="colPrecoUnitario" prefWidth="72.79997253417969" text="Preço" />
+                              <TableColumn fx:id="colAcao" prefWidth="72.79997253417969" text="Ação" />
+                          </columns>
+                           <columnResizePolicy>
+                              <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                           </columnResizePolicy>
+                        </TableView>
+                        <Button mnemonicParsing="false" onAction="#adicionarProduto" prefWidth="80.8" styleClass="botao-principal" text="Produto" />
+                     </children>
+                  </VBox>
+                  <VBox layoutX="10.0" layoutY="10.0" prefHeight="6.0" prefWidth="300.0" spacing="10.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Label fx:id="lblNomeCliente" text="Cliente: Fulano" textAlignment="RIGHT">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Label>
+                        <VBox prefHeight="11.0" prefWidth="258.0">
+                           <children>
+                              <Label text="Valor total" />
+                              <TextField fx:id="txtValorTotal" editable="false" prefHeight="25.0" prefWidth="202.0" styleClass="caixa-texto" />
+                           </children>
+                        </VBox>
+                        <HBox prefHeight="0.0" prefWidth="300.0" spacing="5.0">
+                           <children>
+                              <VBox prefHeight="11.0" prefWidth="258.0">
+                                 <children>
+                                    <Label text="Valor Pago" />
+                                    <TextField fx:id="txtValorPago" prefHeight="25.0" prefWidth="202.0" styleClass="caixa-texto" />
+                                 </children>
+                              </VBox>
+                              <VBox prefHeight="11.0" prefWidth="258.0">
+                                 <children>
+                                    <Label text="Troco" />
+                                    <TextField fx:id="txtTroco" editable="false" prefHeight="25.0" prefWidth="202.0" styleClass="caixa-texto" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <VBox layoutX="10.0" layoutY="156.0" prefHeight="176.0" prefWidth="300.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <Label text="Observação" />
+                              <TextArea fx:id="txtObservacoes" prefHeight="138.0" prefWidth="300.0" styleClass="caixa-texto-area" VBox.vgrow="ALWAYS" />
+                           </children>
+                        </VBox>
+                        <HBox alignment="CENTER" prefHeight="0.0" prefWidth="300.0" spacing="5.0">
+                           <children>
+                              <Button mnemonicParsing="false" onAction="#adicionarCliente" prefHeight="35.0" prefWidth="80.8" styleClass="botao-principal" text="Cliente" />
+                              <Button mnemonicParsing="false" onAction="#clickSalvar" style="-fx-background-color: green;" styleClass="botao-principal" text="Salvar" />
+                              <Button layoutX="77.0" layoutY="10.0" mnemonicParsing="false" onAction="#clickFinalizar" prefHeight="35.0" prefWidth="80.8" style="-fx-background-color: red;" styleClass="botao-principal" text="Finalizar" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </VBox>
+   </children>
+</VBox>
